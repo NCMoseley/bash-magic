@@ -12,8 +12,10 @@ QUEUE_PAYMENT_CAPTURE: "qa-payment-capture"
 QUEUE_PAYMENT_REFUND: "qa-payment-refund"
 QUEUE_PAYMENT_VOID: "qa-payment-void"
 QUEUE_CUSTOMER_SHIPMENT_SHIPPED: "qa-customer-shipment-shipped"
+QUEUE_WAREHOUSE_ABANDONED: "warehouse-abandoned"
+QUEUE_PAYMENT_FAILED: "payment-failed"
 
-REDIS_DB: "0"
+REDIS_DB: "0" 
 REDIS_HOST: "qa-redis"
 REDIS_PORT: "6379"
 

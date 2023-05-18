@@ -1,5 +1,17 @@
-{
-    "QueueUrls": [
-        // expect to see the queue url here
-    ]
-}
+qa-inventory-stock-updated
+qa-processed
+qa-status-updated
+qa-shipment-shipped
+qa-returns-received
+qa-receiving-return-processed
+qa-transfer-status-updated
+qa-ms-shipping-return-label-created
+qa-confirmation-email
+qa-warehouse-item-abandoned
+qa-payment-capture
+qa-payment-refund
+qa-payment-void
+qa-customer-shipment-shipped
+warehouse-empty
+warehouse-item-abandoned
+payment-failed
