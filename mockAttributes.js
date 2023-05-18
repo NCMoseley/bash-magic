@@ -1,8 +1,10 @@
 function main(queueName) {
+    const messages = Math.floor(Math.random() * 1000).toString();
+
     return {
         "Attributes": {
             "QueueArn": `arn:aws:sqs:region:account:${queueName}`,
-            "ApproximateNumberOfMessages": "0",
+            "ApproximateNumberOfMessages": messages,
             "ApproximateNumberOfMessagesNotVisible": "0",
             "ApproximateNumberOfMessagesDelayed": "0",
             "CreatedTimestamp": Date.now().toString(),
