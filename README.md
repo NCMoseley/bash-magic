@@ -22,13 +22,13 @@ Generate list of queue attributes:
 ```bash
 #!/bin/bash
 for queue in $(jq .QueueUrls tmp_queues/all.json \
-| grep 'qa-'  t
+| grep '< match string if necessary >' \
 | awk -F / '{print $NF}' \
 | sed 's/[",]//g'); \
 do aws sqs get-queue-attributes --attribute-names All --queue-url \
-https://sqs.<REGION>.amazonaws.com/<ACCOUNT>/$queue \
-> tmp_queues/$queue.json; \
-echo $queue; \
+https://sqs.region.amazonaws.com/0000000000000/"$queue" \
+> tmp_queues/"$queue".json; \
+echo "$queue"; \
 done
 ````
 or, if using this repo
