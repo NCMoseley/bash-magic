@@ -1,4 +1,4 @@
-# Bash Magic 
+# Bash Magic
 
 This repo is complimentary to this medium article: [Bash Magic](https://medium.com/@n.c.moseley/use-some-bash-magic-to-enhance-your-aws-experience-19cc2d354b32)
 
