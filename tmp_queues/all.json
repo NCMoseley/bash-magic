@@ -1,6 +1,6 @@
 {
     "QueueUrls": [
-        // Your AWS SQS Queue URLs will replace these 
+        "Your AWS SQS Queue URLs will replace these",
         "https://sqs.region.amazonaws.com/account/qa-status-updated",
         "https://sqs.region.amazonaws.com/account/qa-order-shipment-shipped",
         "https://sqs.region.amazonaws.com/account/qa-processed",
